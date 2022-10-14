@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grouping tags</title>
+    <style>
+        body {
+            font-family: 'Times New Roman', Times, serif;
+            background-color: darkgray;
+            margin: 0px;
+        }
+
+        header {
+            background-color: aliceblue;
+            margin: 20px;
+            padding: 10px;
+            border-radius: 4px;
+            
+        }
+
+        nav {
+            background-color: cadetblue;
+            padding: 3px;
+            box-shadow: 1px 2px 3px rgba(0, 0, 0, 0.76);
+        }
+
+        nav> a {
+            text-decoration: none;
+            color: white;
+            font-weight: bold;
+            margin-right: 10px;
+        }
+
+        nav> a:hover {
+            text-decoration: underline;
+        }
+            
+
+        main {
+            background-color: aliceblue;
+            margin: 20px;
+            padding: 10px;
+            border-radius: 10px 0px;
+            box-shadow: 1px 2px 3px rgba(0, 0, 0, 0.76);
+        }
+
+        article {
+            background-color: cadetblue;
+            padding: 2px;
+            margin-left: 2px;
+            
+        }
+
+        article>aside {
+            background-color: rgb(75, 126, 128);
+        }
+
+        footer {
+            background-color: black;
+            color: white;
+            text-align: center;
+            padding: 1px;   
+        }
+
+        footer>p {
+            margin: 0px;
+        }
+
+        div#bola{
+            background-color: white;
+            height: 150px;
+            width: 150px;
+            border-radius: 50%;
+            margin: 20px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Meu site</h1>
+        <nav>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+
+        </nav>
+    </header>
+    <main>
+        <section id="assuntos">
+            <article>
+                <h2>Notícias sobre o Brasil</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi, nisi temporibus illo aliquid optio necessitatibus odio alias magni incidunt ratione maxime eius doloremque autem dicta deleniti, repudiandae maiores aspernatur in.</p>
+                <aside>Artigo escrito por José da Silva</aside>
+            </article>
+        </section>
+        <section id="noticias">
+            <article>
+
+            </article>
+        </section>
+    </main>
+    <footer>
+        <p>Desenvolvido por Leonardo</p>
+    </footer>
+    <div id="bola"></div>
+</body>
+</html>
