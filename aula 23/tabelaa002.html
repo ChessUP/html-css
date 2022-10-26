@@ -13,6 +13,7 @@
         table{
             width: 500px;
             border-collapse: collapse;
+            position: relative;
         }
 
         td, th {
@@ -24,6 +25,11 @@
         thead, tfoot {
             background-color: rgb(71, 71, 71);
             color: white;
+        }
+        thead > tr > th {
+            position: sticky;
+            top: 0;
+            background-color: rgb(71, 71, 71);
         }
 
         td.num {
@@ -107,6 +113,34 @@
             <tr>
                 <td>Goiás</td>
                 <td class="num">6 003 788</td>
+            </tr>
+            <tr>
+                <td>Maranhão</td>
+                <td>6 574 789</td>
+            </tr>
+            <tr>
+                <td>Amaazonas</td>
+                <td>3 483 985</td>
+            </tr>
+            <tr>
+                <td>Espírito Santo</td>
+                <td>3 514 952</td>
+            </tr>
+            <tr>
+                <td>Paraíba</td>
+                <td>3 766 528</td>
+            </tr>
+            <tr>
+                <td>Mato Grosso</td>
+                <td>3 035 122</td>
+            </tr>
+            <tr>
+                <td>Rio Grande do Norte</td>
+                <td>3 168 027</td>
+            </tr>
+            <tr>
+                <td>Alagoas</td>
+                <td>3 120 494</td>
             </tr>
         </tbody>
         <tfoot>
